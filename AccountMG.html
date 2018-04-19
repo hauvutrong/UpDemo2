@@ -1,0 +1,99 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Account management</title>
+<link href="Asset/ACMG.css" rel="stylesheet">
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+<div id="wrapper">
+	<div id="navbar">
+    	<div id="STT">
+        	<p class="navbar-brand" style="margin-left:20px;font-size:25px;">Quản lý tài khoản</p> 
+        </div>
+    </div>
+    
+    <div id="body_left">
+    	<div class="avataAD"><img src="Asset/img/find_user.png" style="width:100%;height:100%"/></div>
+        <hr/>
+        <ul class="nav" id="main-menu">
+				<li class="text-center"></li>
+                <li><a class="active-menu" href="#" style="color:#fff;"><i class="glyphicon glyphicon-th-list"></i>  Tất cả các tài khoản</a></li>
+                <li><a  href="#" style="color:#fff;"><i class="glyphicon glyphicon-th-list"></i>  Tài khoản cửa hàng mới</a></li>	
+                <li><a  href="#" style="color:#fff;"><i class="glyphicon glyphicon-share"></i>  Đăng xuất</a></li>
+        </ul>             
+      
+    </div>
+    
+    <div id="body_right">
+    	<div class="box_table">
+        	<div class="row">
+                    <div class="col-md-12">
+                     <h2 style="margin-left:15px;;color:#F00">Bảng điều khiển quản trị</h2>   
+                        <h5 style="margin-left:15px">Chào mừng [Admin Name] , Chào mừng quay trở lại!. </h5>
+                    </div>
+            </div>
+            <hr>
+                <div class="luachon">
+                
+                <div class="dropdown">
+                   <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true"                    aria-expanded="true"> tìm kiếm theo<span class="caret"></span> </button>
+                   <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                   <li><a href="#">Tên tài khoản</a></li>
+                   <li><a href="#">Loại tài khoản</a></li>
+                   </ul>
+                </div>
+                
+                <div class="searchform">
+                   <form class="navbar-form navbar-left" role="search">
+                   <input type="text" class="form-control" placeholder="Tìm kiếm">
+                   <button type="submit" class="btn btn-default">Tìm kiếm</button>
+                   </form>
+                </div>      
+                
+                </div>        
+                 <!-- /table  -->
+                <div class="row" >
+                    <div class="col-md-9 col-sm-12 col-xs-12">
+               
+                    <div class="panel panel-default" style="width:1000px; height:300px; overflow:auto; margin-bottom::30px;">	
+                        <div class="panel-body"> 
+                            <div class="table-responsive" >
+                                <table class="table table-striped table-bordered table-hover" style="overflow:auto;">
+                                    <thead>
+                                        <tr>
+                                            <th>#</th>
+                                            <th>Tên tài khoản</th>
+                                            <th>Loại tài khoản</th>
+                                            <th>Hành động</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>1</td>
+                                            <td>Mark</td>
+                                            <td>Otto</td>
+                                            <td><button class="btn btn-success" style="width:100px;"><i class="glyphicon glyphicon-repeat"></i>   Chỉnh sửa</button>
+                                                <button class="btn btn-danger" style="width:100px;"><i class="glyphicon glyphicon-remove"></i>   xóa</button>
+                                            </td>                      
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    </div>
+                </div>          
+    </div>
+    
+        </div>
+    </div>
+</div>
+
+<script src="bootstrap/js/jquery-3.3.1.min.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
